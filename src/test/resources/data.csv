@@ -1,0 +1,11 @@
+# amount, registered, expected
+1000_60, true, 30
+1_000_000_60, true, 500
+1000_60, false, 10
+1_000_000_60, false, 500
+30_60, true, 0
+16_633_60, true, 499
+8_333_60, true, 250
+25_000_60, false, 250
+49_900_60, false, 499
+90_60, false, 0
