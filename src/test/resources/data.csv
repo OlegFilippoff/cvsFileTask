@@ -1,13 +1,13 @@
 # name ,amount, registered, expected
-'bonusCalculation_registered_price 1000', 1000_60, true, 30
-'bonusCalcUpperLimit_registered_price 1 000 000', 1_000_000_60, true, 500
-'bonusCalc_unregistered_price 1000', 1000_60, false, 10
-'bonusCalcUpperLimit_unregistered_price 1 000 000', 1_000_000_60, false, 500
-'bonusCalcLowerLimit_registered_price 30', 30_60, true, 0
-'bonusCalcLowerLimitPlusOne_registered_price 34', 34_60, true, 1
-'bonusCalcOfUpperLimitMinusOne_registered_price 16 633', 16_633_60, true, 499
-'bonusCalcOfMiddle_registered_price 8 333', 8_333_60, true, 250
-'bonusCalcOfMiddle_unregistered_price 25 000', 25_000_60, false, 250
-'bonusCalcUpperLimitMinusOne_unregistered_price 49 900', 49_900_60, false, 499
-'bonusCalcLowerLimit_unregistered_price 90', 90_60, false, 0
-'bonusCalcLowerLimitPlusOne_unregistered_price 100', 100_60, false, 1
+'bonusCalculation_registered_price 1000', 1000, true, 30
+'bonusCalcUpperLimit_registered_price 1 000 000', 1000000, true, 500
+'bonusCalc_unregistered_price 1000', 1000, false, 10
+'bonusCalcUpperLimit_unregistered_price 1 000 000', 100000060, false, 500
+'bonusCalcLowerLimit_registered_price 30', 30, true, 0
+'bonusCalcLowerLimitPlusOne_registered_price 34', 34, true, 1
+'bonusCalcOfUpperLimitMinusOne_registered_price 16 633', 16634, true, 499
+'bonusCalcOfMiddle_registered_price 8 333', 8334, true, 250
+'bonusCalcOfMiddle_unregistered_price 25 000', 25000, false, 250
+'bonusCalcUpperLimitMinusOne_unregistered_price 49 900', 49900, false, 499
+'bonusCalcLowerLimit_unregistered_price 90', 90, false, 0
+'bonusCalcLowerLimitPlusOne_unregistered_price 100', 100, false, 1
