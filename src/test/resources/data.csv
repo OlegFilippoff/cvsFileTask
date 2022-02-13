@@ -1,13 +1,13 @@
 # name ,amount, registered, expected
 'bonusCalculation_registered_price 1000', 1000, true, 30
-'bonusCalcUpperLimit_registered_price 1 000 000', 1000000, true, 500
+'bonusCalcOfUpperLimit_registered_price 1 000 000', 1000000, true, 500
 'bonusCalc_unregistered_price 1000', 1000, false, 10
-'bonusCalcUpperLimit_unregistered_price 1 000 000', 100000060, false, 500
-'bonusCalcLowerLimit_registered_price 30', 30, true, 0
-'bonusCalcLowerLimitPlusOne_registered_price 34', 34, true, 1
-'bonusCalcOfUpperLimitMinusOne_registered_price 16 633', 16634, true, 499
-'bonusCalcOfMiddle_registered_price 8 333', 8334, true, 250
+'bonusCalcOfUpperLimit_unregistered_price 1 000 000', 1000000, false, 500
+'bonusCalcOfLowerLimit_registered_price 30', 30, true, 0
+'bonusCalcOfLowerLimitPlusOne_registered_price 34', 34, true, 1
+'bonusCalcOfUpperLimitMinusOne_registered_price 16 634', 16634, true, 499
+'bonusCalcOfMiddle_registered_price 8 334', 8334, true, 250
 'bonusCalcOfMiddle_unregistered_price 25 000', 25000, false, 250
-'bonusCalcUpperLimitMinusOne_unregistered_price 49 900', 49900, false, 499
-'bonusCalcLowerLimit_unregistered_price 90', 90, false, 0
-'bonusCalcLowerLimitPlusOne_unregistered_price 100', 100, false, 1
+'bonusCalcOfUpperLimitMinusOne_unregistered_price 49 900', 49900, false, 499
+'bonusCalcOfLowerLimit_unregistered_price 90', 90, false, 0
+'bonusCalcOfLowerLimitPlusOne_unregistered_price 100', 100, false, 1
